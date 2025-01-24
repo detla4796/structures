@@ -40,8 +40,8 @@ namespace structure
                     maxCircle = circles[i];
                 }
             }
-            Console.WriteLine("The circle with the largest radius is:");
-            Console.WriteLine($"Center: ({maxCircle.Center.X}, {maxCircle.Center.Y})");
+            Console.Write("The circle with the largest radius is: ");
+            Console.WriteLine($"X - {maxCircle.Center.X}, Y - {maxCircle.Center.Y}");
             Console.ReadKey();
         }
     }

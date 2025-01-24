@@ -24,7 +24,7 @@ namespace structure
         {
             Student[] students = GenerateStudents(25);
             Student oldBoy = new Student();
-            int oldBoyIndex = 0;
+            int oldBoyIndex = -1;
             for (int i = 0; i < students.Length; i++)
             {
                 if (students[i].Gender.ToLower() == "м")
@@ -63,7 +63,7 @@ namespace structure
                     LastName = lastNames[random.Next(lastNames.Length)],
                     Birthday = new Birthday
                     {
-                        Day = random.Next(1, 28),
+                        Day = random.Next(1, 29),
                         Month = random.Next(1, 13),
                         Year = random.Next(1990, 2002)
                     },

@@ -54,8 +54,8 @@ namespace structure
                     Address = new Address
                     {
                         Street = streets[random.Next(streets.Length)],
-                        House = random.Next(1, 100),
-                        Apartment = random.Next(1, 300)
+                        House = random.Next(1, 20),
+                        Apartment = random.Next(1, 15)
                     }
                 };
             }
