@@ -42,9 +42,9 @@ namespace structure
         {
             Resident[] residents = new Resident[count];
             Random random = new Random();
-            string[] lastNames = { "Петров", "Иванов", "Сидоров", "Смирнов", "Кузнецов", "Попов", "Васильев", "Павлов", "Семенов", "Голубев" };
-            string[] streets = { "Ленина", "Пушкина", "Гагарина", "Мира", "Советская", "Октябрьская", "Центральная", "Школьная", "Новая", "Садовая" };
-            string[] cities = { "Москва", "Санкт-Петербург", "Новосибирск", "Екатеринбург", "Нижний Новгород", "Казань", "Челябинск", "Омск", "Самара", "Ростов-на-Дону" };
+            string[] lastNames = { "Petrov", "Ivanov", "Sidorov", "Smirnov", "Kuznetsov", "Popov", "Vasiliev", "Pavlov", "Semenov", "Golubev" };
+            string[] streets = { "Lenina", "Pushkina", "Gagarina", "Mira", "Sovetskaya", "Oktyabrskaya", "Tsentralnaya", "Shkolnaya", "Novaya", "Sadovaya" };
+            string[] cities = { "Moscow", "Saint Petersburg", "Novosibirsk", "Yekaterinburg", "Nizhny Novgorod", "Kazan", "Chelyabinsk", "Omsk", "Samara", "Rostov-on-Don" };
             for (int i = 0; i < count; i++)
             {
                 residents[i] = new Resident
