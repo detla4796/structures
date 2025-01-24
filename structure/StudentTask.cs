@@ -27,7 +27,7 @@ namespace structure
             int oldBoyIndex = -1;
             for (int i = 0; i < students.Length; i++)
             {
-                if (students[i].Gender.ToLower() == "м")
+                if (students[i].Gender.ToLower() == "m")
                 {
                     if (oldBoyIndex == -1)
                     {
@@ -54,8 +54,8 @@ namespace structure
         {
             Student[] students = new Student[count];
             Random random = new Random();
-            string[] lastNames = { "Петров", "Иванов", "Сидоров", "Смирнов", "Кузнецов", "Попов", "Васильев", "Павлов", "Семенов", "Голубев" };
-            string[] genders = { "М", "Ж" };
+            string[] lastNames = { "Petrov", "Ivanov", "Sidorov", "Smirnov", "Kuznetsov", "Popov", "Vasilyev", "Pavlov", "Semenov", "Golubev" };
+            string[] genders = { "M", "F" };
             for (int i = 0; i < count; i++)
             {
                 students[i] = new Student
